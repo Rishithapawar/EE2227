@@ -1,3 +1,9 @@
+######################################################################################
+#Coded by: Rishitha
+#Date : April 19,2020
+# Released Under GNU GPL
+#####################################################################################
+
 import control
 import numpy as np
 import matplotlib.pyplot as plt
