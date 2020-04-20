@@ -19,13 +19,14 @@ The following python code generates the polar plot below:
 \begin{lstlisting}
 codes/ee18btech11033.py
 \end{lstlisting}
-\item Consider the above open loop transfer function
-\begin{align}
-G(s) = \frac{1}{(s+1)(s+2)(s+3)}.
-\end{align}
-Is the system stable(using polar plot)?
+\item How to tell about the stability of a closed loop system based on the polar plot?
 
 \solution
 The polar plots are for open loop transfer function,hence the reference point for determining stability is shifted to (-1,0).
-Since for the above question (-1,0) is not enclosed by polar plot,the closed loop system is stable.
+\begin{description}[font=$\bullet$~\normalfont\scshape\color{red!50!black}]
+
+\item If (-1,0) is to the left of the polar plot then the closed loop system is stable.
+\item If (-1,0) is on the right side of the polar plot then the closed loop system is unstable.
+\item If t(-1,0) is on the polar plot then the closed loop system is marginally stable.
+\end{description}
 \end{enumerate}
